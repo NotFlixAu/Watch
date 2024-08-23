@@ -1,0 +1,82 @@
+body{
+	color:rgb(0, 157, 255);
+	background-color:black;
+    font-size: 30px;
+}
+.hbttn{
+    background-color: black;
+    border: 0px;
+    color: black;
+    height:20px;
+    width:100px;
+}
+.link{
+    background-color: black;
+    border: 0px;
+    color: RoyalBlue;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.home{
+    background-color: black;
+    border: 0px;
+    color: white;
+    height:10px;
+    width:10px;
+    cursor: pointer;
+}
+.x{
+    background-color: black;
+    border: 0px;
+    color: black;
+    cursor: pointer;
+}
+.r{
+    background-color: black;
+    border: 0px;
+    color: black;
+}
+.quiz{
+    background-color: black;
+    border: 2px black;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+.quiz:hover{
+    color: black;
+    background-color: #555555;
+}
+.qbod{
+	color:orange;
+	background-color:black;
+    font-size: 40px;
+}
+.rroll{transform: rotate(0.25deg);
+    animation-name: rot;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.rmov{transform: rotate(0.25deg);
+    animation-name: sha;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes rot {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+@keyframes sha {
+    0%{transform: translate(480px);}
+    100%{transform: translate(-480px);}
+}
+@font-face {
+    font-family: robo;
+    src: url(///media/fuse/drivefs-352c61abb624c09f05efd5bc81245cc1/root/SITE/roboto.ttf);
+}
+*{font-family: robo;}
